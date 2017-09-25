@@ -12,8 +12,8 @@
 				- ex: "stock.usd.nyse", "nyse.vmw", "quick.orange.rabbit"
 			- binding key must also be in the same form as the routing key
 			- two important special cases for binding keys
-				- * (star) can substitute for exactly one word.
-				- # (hash) can substitute for zero or more words.
+				- `*`(star) can substitute for exactly one word.
+				- `#`(hash) can substitute for zero or more words.
 				- ex: (we're going to send messages which all describe animals)
 					- topic form is "<speed>.<colour>.<species>".
 					- Q1 is bound with binding key "*.orange.*" 
