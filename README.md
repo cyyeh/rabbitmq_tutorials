@@ -1,4 +1,4 @@
-# RabbitMQ Tutorials
+# RabbitMQ Tutorials implemented using Javascript
 
 - Install RabbitMQ: https://www.rabbitmq.com/download.html
 	- Start RabbitMQ in Mac OS X using Homebrew
